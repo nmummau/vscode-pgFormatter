@@ -20,7 +20,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Removed 
 
 - Removed support for `maxLength` option (because it was confusing)
->>>>>>> upstream/master
 
 ## [1.5.0] - 2018-09-12
 
