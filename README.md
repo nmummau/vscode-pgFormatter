@@ -29,13 +29,14 @@ pgFormatter also works with the `"editor.formatOnSave": true` setting so that wh
 This extension has the following configuration settings:
 
 * `pgFormatter.spaces` - Number of spaces to indent the code (Default: 2)
-* `pgFormatter.maxLength` - Maximum length of a query
 * `pgFormatter.commaStart` - Use preceding comma in parameter list (Default: false)
 * `pgFormatter.commaBreak` - In insert statement, add a newline after each comma (Default: false)
 * `pgFormatter.commaEnd` - Use trailing comma in parameter list (Default: true)
 * `pgFormatter.noComment` - Remove any comments (Default: false)
 * `pgFormatter.functionCase` - Case of the function names (Options: ["unchanged", "lowercase", "uppercase", "capitalize"]; Default: "unchanged")
 * `pgFormatter.keywordCase` - Case of the reserved keywords (Options: ["unchanged", "lowercase", "uppercase", "capitalize"]; Default: "uppercase")
+* `pgFormatter.formatType` - Use another formatting type for some statements (Default: false)
+* `pgFormatter.placeholder` - Regex to find code that must not be changed
 * `pgFormatter.perlBinPath` - The path to the perl executable (Default: "perl")
 
 ### Ignoring Files
